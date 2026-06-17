@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import VideoSection from './components/VideoSection'
 import PhotoSection from './components/PhotoSection'
 import SideNav      from './components/SideNav'
@@ -54,6 +55,7 @@ export default function App() {
         <span style={{ color: 'var(--cyan)' }}>Vite</span>
         {' · Michigan, USA'}
       </footer>
+      <Analytics />
     </>
   )
 }
